@@ -1,0 +1,23 @@
+.Menu ul {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+
+.Menu ul li {
+    display: inline;
+}
+
+.Menu ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.Menu ul li a:hover {
+    color: green;
+    border-bottom: 2px solid green;
+}
+
+#name {
+    color: green;
+}
