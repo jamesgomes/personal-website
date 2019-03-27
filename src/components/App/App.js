@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
+import Routes from './routes';
 import Menu from '../Menu/Menu';
-import Home from '../Home/Home'
+
 import './App.css';
 
 class App extends Component {
@@ -11,12 +12,14 @@ class App extends Component {
           <span>index.js — bash — 100x<span>100</span></span>
         </header>
         <div className="text-body">
+
           <Menu />
-          {/* <Home /> */}
-          </div>
+          <Routes />
+
         </div>
-        );
-      }
-    }
-    
-    export default App;
+      </div>
+    );
+  }
+}
+
+export default App;
