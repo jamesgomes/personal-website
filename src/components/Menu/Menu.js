@@ -4,18 +4,17 @@ import './Menu.css';
 
 class Menu extends Component {
     render() {
-        const item = `<ul>
-        <li id="name">$jamesgomes: </li>
-        <li><a href="#/sobre">sobre,</a></li>
-        <li><a href='#/resumo'>formação acadêmica,</a></li>
-        <li><a href='#/resumo'>experiência,</a></li>
-        <li><a href='#/resumo'>skills,</a></li>
-        <li><a href='#/resumo'>contato</a></li>
-      </ul>`;
+        const item = `
+        <a href="#/" id="name">$jamesgomes: </a>
+        <a href="#/sobre">sobre,</a>
+        <a href='#/resumo'>formação acadêmica,</a>
+        <a href='#/resumo'>experiência,</a>
+        <a href='#/resumo'>skills,</a>
+        <a href='#/resumo'>contato</a>`;
         return (
             <div className="Menu" >
                 <Typed strings={[item]}
-                    typeSpeed={40}
+                    typeSpeed={30}
                     cursorChar={'_'}
                     contentType={'html'}
                 />

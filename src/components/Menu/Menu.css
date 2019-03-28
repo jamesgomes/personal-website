@@ -1,23 +1,21 @@
-.Menu ul {
-    padding: 0px;
-    margin: 0px;
-    list-style: none;
+.Menu {
+    min-height: 150px;
 }
 
-.Menu ul li {
-    display: inline;
-}
-
-.Menu ul li a {
+.Menu a {
     color: white;
     text-decoration: none;
 }
 
-.Menu ul li a:hover {
-    color: green;
-    border-bottom: 2px solid green;
+.Menu a:hover {
+    color: white;
+    border-bottom: 2px solid white;
 }
 
 #name {
     color: green;
+}
+
+.Menu #name:hover {
+    border: none;
 }

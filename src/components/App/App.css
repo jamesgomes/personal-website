@@ -1,5 +1,6 @@
 body {
   background-color: black;
+  font-family: SFMono-Regular,Consolas,Liberation Mono,Menlo,Courier,monospace;
 }
 .App {
   display: block;
@@ -15,7 +16,6 @@ body {
 
 .App-header {
   padding: 5px 0;
-    font-family: "Lucida Grande", sans-serif;
     font-size: 0.75em;
     text-align: center;
     text-shadow: rgba(255, 255, 255, 0.8) 0px 1px 0px;
@@ -29,7 +29,6 @@ body {
 
 .title-bar {
   padding: 5px 0;
-  font-family: "Lucida Grande", sans-serif;
   font-size: 0.75em;
   text-align: center;
   text-shadow: rgba(255, 255, 255, 0.8) 0px 1px 0px;
@@ -46,7 +45,6 @@ body {
   padding: 10px;
   color: #f0f0f0;
   text-shadow: #000 0px 1px 0px;
-  font-family: "Consolas", "Courier New", "Courier";
   font-size: 18px;
   line-height: 1.40em;
   font-weight: 500;
@@ -57,4 +55,6 @@ body {
   -ms-transition: all 0.5s ease-out;
   -o-transition: all 0.5s ease-out;
   transition: all 0.5s ease-out;
+  margin-left: 10px;
+  margin-right: 10px;
 }

@@ -12,10 +12,12 @@ class App extends Component {
           <span>index.js — bash — 100x<span>100</span></span>
         </header>
         <div className="text-body">
-
-          <Menu />
-          <Routes />
-
+        <div>
+            <Menu />
+          </div>
+          <div>
+            <Routes />
+          </div>
         </div>
       </div>
     );
