@@ -7,15 +7,15 @@ class Menu extends Component {
         const item = `
         <a href="#/" id="name">$jamesgomes: </a>
         <a href="#/sobre">sobre,</a>
-        <a href='#/resumo'>formação acadêmica,</a>
-        <a href='#/resumo'>experiência,</a>
-        <a href='#/resumo'>skills,</a>
-        <a href='#/resumo'>contato</a>`;
+        <a href='#/formacao'>formação acadêmica,</a>
+        <a href='#/experiencia'>experiência,</a>
+        <a href='#/habilidade'>habilidades,</a>
+        <a href='#/contato'>contato</a>`;
         return (
             <div className="Menu" >
                 <Typed strings={[item]}
                     typeSpeed={30}
-                    cursorChar={'_'}
+                    cursorChar={'|'}
                     contentType={'html'}
                 />
 

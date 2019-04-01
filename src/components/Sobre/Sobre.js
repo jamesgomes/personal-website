@@ -4,7 +4,7 @@ import './Sobre.css';
 
 class Sobre extends Component {
     render() {
-        const item = `Sou um programador apaixonado. Entusiasta em escrever softwares bem elaborados e valiosos. Atualmente trabalho na <a href="http://recompensas.minutrade.com/" target="_blank">./minutrade.html</a> , onde atuo como Analista de Sistemas. <br/ ><br/ >
+        const item = `Sou um programador apaixonado. Entusiasta em escrever softwares bem elaborados e valiosos. Atualmente trabalho na <a href="http://recompensas.minutrade.com/" target="_blank">./minutrade.html</a> , onde atuo como Analista de Sistemas. <br/ >
         Estou profundamente interessado em simplicidade, escrevendo código rápido que também seja fácil de ler e manter, estou em constante busca por melhores práticas e também experimentando coisas novas.
         `;
         return (

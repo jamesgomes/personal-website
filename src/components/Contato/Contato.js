@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
 import Typed from 'react-typed';
-import './Home.css';
 
-class Home extends Component {
+class Contato extends Component {
     render() {
+        const text = `contato`;
         return (
-            <div className="Home" >           
-            <Typed strings={['Eu sou o James Este é o meu site. Bem vindo.']}
+            <div className="Home" >
+                <Typed strings={[text]}
                     typeSpeed={40}
                 />
             </div>
@@ -14,4 +14,4 @@ class Home extends Component {
     }
 }
 
-export default Home;
+export default Contato;
