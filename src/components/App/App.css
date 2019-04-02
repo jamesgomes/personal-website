@@ -2,6 +2,10 @@ body {
   background-color: black;
   font-family: SFMono-Regular,Consolas,Liberation Mono,Menlo,Courier,monospace;
 }
+
+body a {
+  color: white;
+}
 .App {
   display: block;
   margin: auto;

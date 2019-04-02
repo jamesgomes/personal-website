@@ -11,6 +11,7 @@ import Sobre from '../Sobre/Sobre';
 import Formacao from '../Formacao/Formacao';
 import Experiencia from '../Experiencia/Experiencia';
 import Habilidade from '../Habilidade/Habilidade';
+import Contato from '../Contato/Contato';
 
 export default props => (
     <HashRouter basename="/">
@@ -20,6 +21,7 @@ export default props => (
             <Route path="/formacao" exact render={props => <Formacao {...props} />} />
             <Route path="/experiencia" exact render={props => <Experiencia {...props} />} />
             <Route path="/habilidade" exact render={props => <Habilidade {...props} />} />
+            <Route path="/contato" exact render={props => <Contato {...props} />} />
           </Switch>
   </HashRouter>
 )

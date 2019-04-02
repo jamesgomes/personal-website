@@ -4,7 +4,14 @@ import Typed from 'react-typed';
 
 class Habilidades extends Component {
     render() {
-        const text = 'habilidades';
+        const text = `
+        Git, GitHub, Team Foundation Server <br />
+        HTML/CSS <br />
+        JavaScript,  AngularJS, React <br />
+        Nodejs, C# <br />
+        HTTP/REST <br />
+        Mongodb,  SQL Server, MySQL <br />
+        `;
         return (
             <div className="Home" >
                 <Typed strings={[text]}
