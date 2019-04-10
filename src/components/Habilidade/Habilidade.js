@@ -7,7 +7,7 @@ class Habilidades extends Component {
         const text = `
         Git, GitHub, Team Foundation Server <br />
         HTML/CSS <br />
-        JavaScript,  AngularJS, React <br />
+        JavaScript,  AngularJS, React, ASP.NET <br />
         Nodejs, C# <br />
         HTTP/REST <br />
         Mongodb,  SQL Server, MySQL <br />
